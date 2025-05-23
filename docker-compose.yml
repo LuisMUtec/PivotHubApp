@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15
+    container_name: pivothub_db
+    ports:
+      - "5556:5432"
+    environment:
+      POSTGRES_DB: pivothub_db
+      POSTGRES_USER: pivothub
+      POSTGRES_PASSWORD: pivothub
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
+
+#docker compose up -d
