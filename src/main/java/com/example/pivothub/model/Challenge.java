@@ -44,6 +44,6 @@ public class Challenge {
     @JoinColumn(name = "created_by_id", nullable = false)
     private User createdBy;
 
-    //@OneToMany(mappedBy = "challenge", cascade = CascadeType.ALL)
-    //private List<ChallengeMember> members;
+    @OneToMany(mappedBy = "challenge", cascade = CascadeType.ALL)
+    private List<ChallengeMember> members;
 } 

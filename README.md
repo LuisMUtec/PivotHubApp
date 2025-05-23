@@ -1,6 +1,6 @@
 # PivotHub
 
-PivotHub es una aplicación de retos y desafíos personales que permite a los usuarios crear y participar en retos con penalizaciones económicas.
+PivotHub es una aplicación de retos y desafíos grupales que permite a los usuarios crear y participar en retos con penalizaciones económicas.
 
 ## Tecnologías Utilizadas
 
